@@ -5,6 +5,11 @@ import java.util.List;
 
 public class Questions {
 
+//    Before start:
+//    Answer every question in it’s designated section in the Questions class except questions 4 and 10.
+//    Order and cleanness in the code and the results printed in the console will be taken in consideration during correction.
+
+
     //1. Create an int array with number from 1 to 10 in the run class
 
 
@@ -12,18 +17,39 @@ public class Questions {
 
 
     //2. Create a method to run the previous array and print the odd numbers
-    public  void question2(int[] array){
+    public  void question2(){
 
 
 
     }
 
     //3. Create a method to run the previous array and print the average of the even numbers
-    public  void question3(int[] array){
+    public  void question3(){
 
 
 
     }
+
+//   4. Create the following classes in the classes folder. The class must have getters, setters and to string methods and two constructors, one of them empty and the other with all the attributes.
+//
+//
+//    PHONE:
+//    Atributes:
+//            - String brand;
+//            - String countryOfOrigin;
+//            - Model model;
+//
+//
+//
+//
+//    MODEL:
+//    Atributess:
+//            - int capacity;
+//            - String color;
+//            - boolean available;
+//            - int price;
+//            - String modelName;
+
 
     //5. Create five objects of the class phone (remember that the Phone class have a Model class attribute inside) with the following data:
     //
@@ -45,7 +71,8 @@ public class Questions {
 
     }
 
-    //7. Create an empty List of the objects phones previously created.  Create a method to Add the objects to the List and print the phones that are available using that List.
+    //7. Create an empty List of the Phone objects previously created.
+    //Create a method to Add the objects to the List and print the phones that are available using that List.
 
 
     public void question7(){
@@ -58,10 +85,15 @@ public class Questions {
 
     }
 
-    // 9. Create a method that, using the List<Phone>, print the average price of available phones, print the price of all the phones with price >300 in one line (like in the exercise 8) and set the brand of two of the unavailable phones to null and print them
+    // 9. Create a method that, using the List<Phone> already created, does the following:
+    //a) print the average price of available phones
+    //b) print the price of all the phones with price >300 in one line (like in the exercise 8)
+    //c) set the brand of two of the unavailable phones to null and print them
     public void question9(){
 
     }
+
+    //10. Create the calls in the Main class for every method created in the Questions class
             
 
 }
