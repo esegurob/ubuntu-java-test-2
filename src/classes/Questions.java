@@ -51,11 +51,11 @@ public class Questions {
 //    Object Phone structure:
 //      (brand, country, Model (price, capacity, available, color, name))
 //
-//    phone1 = "Apple",  "EEUU",  Model (800, 32, true, "black", "Iphone 6")
-//    phone2 = "Xiaomi", "China", Model (200, 16, false, "white", "Redmi note 8")
-//    phone3 = "Nokia", "Sweden", Model (50, 1, true, "silver", "Nokia 33-10")
-//    phone4 = "Samsung", "Korea", Model (600, 32, false, "red", "Samsung Galaxy")
-//    phone5 = "Sony", "Japan", Model (350, 16, true, "green", "Sony Experia")
+//    phone1 = "Apple",  "EEUU",  Model (32, "black", true, 800, "Iphone 6")
+//    phone2 = "Xiaomi", "China", Model (16, "white", false, 200, "Redmi note 8")
+//    phone3 = "Nokia", "Sweden", Model (1, "silver", true, 50, "Nokia 33-10")
+//    phone4 = "Samsung", "Korea", Model (32, "red", false, 600, "Samsung Galaxy")
+//    phone5 = "Sony", "Japan", Model (16, "green", true, 350, "Sony Experia")
 
 
 
