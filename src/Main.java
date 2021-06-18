@@ -10,14 +10,13 @@ public class Main {
 //        Two constructors, one of them empty and the other with all the attributes
 //        The to string method
 
-//        Class name: Brand
+//        Class name: Companies
 //        Attributes:
-//          int id;
-//          String model;
-//          Date makeYear;
-//          int speed;
-//          int price;
-//          boolean available;
+//          int id
+//          String name
+//          String country
+//          int employees
+
 
 
 
@@ -31,11 +30,12 @@ public class Main {
 //        Two constructors, one of them empty and the other with all the attributes
 //        The to string method
 
-//        Class name: Car
-//        Attributes:
-//          int id;
-//          Brand brand;
-//          String color;
+//        Class name: Employee
+//        Attributes
+//          int id
+//          String name
+//          boolean unemployed
+//          Company company
 
 
 
@@ -46,14 +46,15 @@ public class Main {
 //        Exercise 3
 //        Create five objects (instances) of the class CAR (remember that the CAR class have a BRAND class attribute inside) with the following data:
 
-//        Object Car structure:
-//        (id, Brand (id, model, makeYear, speed, available), color)
+//        Object Employee structure:
+//        (id, name, unemployed, Company(id, name, country, employees))
 //
-//          car1= 1, Brand(1,Mercedes, 1997, 140, yes), “red”;
-//          car2= 2, Brand(2, BMW, 2008, 120, no), “black”;
-//          car3= 3, Brand(3, Mitsubishi, 2020, 130, yes), “white”;
-//          car4= 4, Brand(4, Toyota, 1990, 100, yes), “grey”;
-//          car5= 5, Brand(2, BMW, 2017, 160, yes), “yellow”;
+//        employee1= 1, “Carlos Rodriguez”, false, Company(1, “Apple”, “EEUU”, 300)
+//        employee2= 2, “Fernando Suarez”, true, Company(null)
+//        employee3= 3, “Sergio Fernandez”, false, Company(2, “Android”, “Canada”, 100)
+//        employee4= 4, “Pablo Plasencia”, false, Company(3, “Preving”, “Spain”, 1500)
+//        employee4= 5, “Enmanuel Seguro”, false, Company(3, “Preving”, Spain”, 1500)
+//
 
 
 
@@ -62,9 +63,7 @@ public class Main {
 
         System.out.println("Exercise 4 ----------------------------");
 //        Exercise 4
-//        Create a List of the Car domain. Add the Car objects already created in exercise 3 to the List and print them in the console.
-
-
+//        Create a List of the Employee domain. Add the Employee objects already created in exercise 3 to the List and print them in the console.
 
 
 
@@ -73,12 +72,13 @@ public class Main {
 
         System.out.println("Exercise 5 ----------------------------");
 //        Exercise 4
-//        Create a List<Car> usar la misma and apply the following functionalities:
+//        Use the same list created in the previous exercise and apply the following functionalities:
 
-//          - Print all the cars with the available attribute is ‘true’
-//          - Print all the cars in order by price (asc)
-//          - Print all the cars with brand name is BMW
-//          - Set the Toyota brand color attribute to blue and print in the console
+//        Print all the employees with the unemployed attribute ‘false’
+//        Print all the companies with more than 500 employees
+//        Print all the employees of the company id = 3
+//        Set all the attributes for the employee id = 2 in the company “Apple”
+
 
 
 
