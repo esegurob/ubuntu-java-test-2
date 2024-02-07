@@ -5,38 +5,22 @@ public class Main {
 
         System.out.println("Exercise 1 ----------------------------");
 //        Exercise 1:
-//        Create the following domain in the classes Folder. The class must have:
-//        The getters and setters methods
-//        Two constructors, one of them empty and the other with all the attributes
-//        The to string method
-
-//        Class name: Companies
-//        Attributes:
-//          int id
-//          String name
-//          String country
-//          int employees
-
-
+//        Create two differents numbers (int) variables (between 1 and 20):
+//              - Show by console which one is the highest or if they are equal
+//              - Calculate and print in the console the sum
+//              - Calculate and print in the console the subtraction
+//              - Calculate and print in the console the multiplication
+//              - Calculate and print in the console the division
 
 
 
         System.out.println("/--------------------------------------");
 
         System.out.println("Exercise 2 ----------------------------");
-//        Exercise 2
-//        Create the following domain in the classes folder. The class must have:
-//        The getters and setters methods
-//        Two constructors, one of them empty and the other with all the attributes
-//        The to string method
-
-//        Class name: Employee
-//        Attributes
-//          int id
-//          String name
-//          boolean unemployed
-//          Company company
-
+//        Exercise 2:
+//        Create a string with the value “Ubuntu: I am because we are”.
+//              - Show in the console how many characters has
+//              - Replace the spaces for the character ‘_’ and show the result in the console
 
 
 
@@ -44,18 +28,10 @@ public class Main {
 
         System.out.println("Exercise 3 ----------------------------");
 //        Exercise 3
-//        Create five objects (instances) of the class CAR (remember that the CAR class have a BRAND class attribute inside) with the following data:
-
-//        Object Employee structure:
-//        (id, name, unemployed, Company(id, name, country, employees))
-//
-//        employee1= 1, “Carlos Rodriguez”, false, Company(1, “Apple”, “EEUU”, 300)
-//        employee2= 2, “Fernando Suarez”, true, Company(null)
-//        employee3= 3, “Sergio Fernandez”, false, Company(2, “Android”, “Canada”, 100)
-//        employee4= 4, “Pablo Plasencia”, false, Company(3, “Preving”, “Spain”, 1500)
-//        employee4= 5, “Enmanuel Seguro”, false, Company(3, “Preving”, Spain”, 1500)
-//
-
+//        Create a 6 numbers array (values from 1 to 100) and do the following:
+//              - Show by console the odd numbers
+//              - Show in the console which number is the lowest
+//              - Show the reverse order of the array
 
 
 
@@ -63,21 +39,18 @@ public class Main {
 
         System.out.println("Exercise 4 ----------------------------");
 //        Exercise 4
-//        Create a List of the Employee domain. Add the Employee objects already created in exercise 3 to the List and print them in the console.
-
+//        Create a variable date and show the date and time from now.
+//              - Sum three days at the date and show by console if it is weekend or not
 
 
 
         System.out.println("/--------------------------------------");
 
         System.out.println("Exercise 5 ----------------------------");
-//        Exercise 4
-//        Use the same list created in the previous exercise and apply the following functionalities:
-
-//        Print all the employees with the unemployed attribute ‘false’
-//        Print all the companies with more than 500 employees
-//        Print all the employees of the company id = 3
-//        Set all the attributes for the employee id = 2 in the company “Apple”
+//        Exercise 5
+//        Create a 6 number array (values from 1 to 10), and do the following
+//              - Print the average in the console
+//              - Check number by number if are higher than 5 and show by console
 
 
 
